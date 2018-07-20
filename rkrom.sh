@@ -1,6 +1,19 @@
 #!/bin/bash
-echo Welcome To Automated Build Env And device source download script for vince echo 
-By rajkale99 echo Establishing A Build Environment
+echo Welcome To Automated Build Env And device source download script for vince
+
+echo By rajkale99
+
+
+echo -e RRRRRRRRRR          AAA		JJJJJJJJJJJJ
+echo -e RRR    RRR         AAAAA	     JJJ
+echo -e RRR   RRR	  AAA AAA	     JJJ
+echo -e RRR  RRR	 AAA---AAA	     JJJ
+echo -e RRR    RRR	AAA     AAA	     JJJ
+echo -e RRR     RRR    AAA	 AAA    JJJ  JJJ
+echo -e RRR      RRR  AAA	  AAA   JJJJJJJ
+
+
+echo Establishing A Build Environment
 sudo apt-get install git-core
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk
