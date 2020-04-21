@@ -25,10 +25,10 @@ echo -e "╚═╝--╚═╝╚═╝--╚═╝ ╚══════╝\n";
 echo -e "-------------------------";
 echo -e "-------------------------";
 echo -e "\n$green Establishing A Build Environment"
-sudo apt-get install git-core
+sudo apt-get install git-core -y
 sudo apt-get update
-sudo apt-get install openjdk-8-jdk
-sudo apt-get install openjdk-8-jre
+sudo apt-get install openjdk-8-jdk -y
+sudo apt-get install openjdk-8-jre -y
 echo -e "$red Install Build Tools"
 
 sudo apt-get install git-core python gnupg flex bison gperf build-essential zip curl gcc-multilib g++-multilib libc6-dev-i386  ccache libgl1-mesa-dev lib32ncurses5-dev \ unzip libesd0-dev squashfs-tools -y
