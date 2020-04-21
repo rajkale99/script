@@ -40,7 +40,7 @@ if [[ "$(command -v make)" ]]; then
     makeversion="$(make -v | head -1 | awk '{print $3}')"
     if [[ "${makeversion}" != "${LATEST_MAKE_VERSION}" ]]; then
         echo "Installing make ${LATEST_MAKE_VERSION} instead of ${makeversion}"
-        bash ./setup/make.sh "${LATEST_MAKE_VERSION}"
+        bash ./make.sh "${LATEST_MAKE_VERSION}"
     fi
 fi
 
